@@ -1,0 +1,87 @@
+[
+  {
+    "task": "Create a JSON configuration object for an AWS Lambda function that processes S3 events. Include environment variables for the S3 bucket name, CloudWatch log group, and timeout settings.",
+    "format": "json",
+    "solution_criteria": {
+      "required_elements": [
+        "FunctionName",
+        "Runtime",
+        "Handler",
+        "Environment.Variables with S3_BUCKET, LOG_GROUP, and TIMEOUT",
+        "Timeout value",
+        "Role ARN structure"
+      ],
+      "validation_rules": [
+        "FunctionName must be a non-empty string",
+        "Runtime must be a valid Lambda runtime (e.g., python3.11, nodejs18.x)",
+        "Timeout must be an integer between 1 and 900",
+        "Environment variables must be in key-value pairs"
+      ],
+      "edge_cases": [
+        "Handle empty or null environment variables",
+        "Support various valid Lambda runtimes"
+      ],
+      "disallowed": [
+        "Invalid runtime names",
+        "Timeout values outside valid range",
+        "Malformed IAM role ARNs"
+      ]
+    }
+  },
+  {
+    "task": "Write a Python function that validates an AWS S3 bucket name against AWS naming rules. The function should accept a bucket name string and return True if valid, False otherwise.",
+    "format": "python",
+    "solution_criteria": {
+      "required_elements": [
+        "Function definition",
+        "Input parameter for bucket name",
+        "Return boolean value"
+      ],
+      "validation_rules": [
+        "Bucket name must be 3-63 characters long",
+        "Must start and end with lowercase letter or number",
+        "Can only contain lowercase letters, numbers, and hyphens",
+        "Cannot be formatted as an IP address (e.g., 192.168.1.1)",
+        "Cannot contain consecutive hyphens"
+      ],
+      "edge_cases": [
+        "Empty string input",
+        "Bucket names at boundary lengths (3, 63 characters)",
+        "Names with uppercase letters",
+        "Names ending with hyphen"
+      ],
+      "disallowed": [
+        "Multiple function definitions",
+        "External library dependencies beyond standard library",
+        "Hardcoded bucket names"
+      ]
+    }
+  },
+  {
+    "task": "Create a regular expression that matches valid AWS IAM role ARNs in the format: arn:aws:iam::account-id:role/role-name where account-id is 12 digits and role-name contains alphanumeric characters, hyphens, and underscores.",
+    "format": "regex",
+    "solution_criteria": {
+      "required_elements": [
+        "Match 'arn:aws:iam::' prefix",
+        "Match exactly 12-digit account ID",
+        "Match 'role/' literal",
+        "Match role name with allowed characters"
+      ],
+      "validation_rules": [
+        "Account ID must be exactly 12 digits",
+        "Role name must contain only alphanumeric characters, hyphens, and underscores",
+        "Role name must be at least 1 character long"
+      ],
+      "edge_cases": [
+        "Minimum length role names (1 character)",
+        "Role names with multiple consecutive special characters",
+        "Account ID with leading zeros"
+      ],
+      "disallowed": [
+        "Matching invalid separators or prefixes",
+        "Allowing role names with invalid characters (dots, spaces, special chars)",
+        "Accepting account IDs with incorrect digit count"
+      ]
+    }
+  }
+]
