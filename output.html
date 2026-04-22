@@ -145,58 +145,25 @@
                 <td class="criteria">• Extracts explicit topics (e.g., artificial intelligence, machine learning, algorithmic bias, regulation)<br>• Captures implicit underlying themes (e.g., epistemology, positivism, determinism, political economy)<br>• Identifies theoretical frameworks and debates referenced in the passage<br>• Returns results as a valid JSON array of strings</td>
                 <td class="output"><pre>
 [
-    "Artificial Intelligence Governance",
-    "Epistemological Frameworks",
-    "Machine Learning Architectures",
-    "Techno-optimism",
-    "Positivist Assumptions",
-    "Quantifiable Metrics",
-    "Societal Values",
-    "Determinism",
-    "Human Agency",
-    "Algorithmic Bias",
-    "Data Provenance",
-    "Political Economy",
-    "Computational Infrastructure",
-    "Regulatory Approaches",
-    "Innovation",
-    "Public Interest",
-    "Market Mechanisms"
-]
-</pre></td>
-                <td class="score-col"><span class="score score-high">9</span></td>
-                <td class="reasoning">The solution fully satisfies all mandatory requirements: it is a valid JSON array of strings containing topics from the article with no extraneous commentary. It meets the secondary criteria by extracting explicit topics (AI governance, machine learning, algorithmic bias, regulation), capturing implicit themes (epistemology, positivism, determinism, political economy), and identifying theoretical frameworks (techno-optimism, positivist assumptions). The extraction is thorough and well-balanced between surface-level and deeper conceptual topics. The minor weaknesses regarding 'Quantifiable Metrics' and slight conceptual overlap do not significantly detract from an otherwise excellent extraction that demonstrates strong comprehension of the passage's content and structure.</td>
-            </tr>
-        
-            <tr>
-                <td>Testing with interdisciplinary passage containing mixed topics (biology, ethics, and policy) to verify the prompt can identify and separate distinct subject areas</td>
-                <td class="prompt-inputs"><strong>content:</strong> Recent advances in CRISPR-Cas9 gene editing technology have demonstrated remarkable potential for treating genetic disorders, yet these developments raise profound ethical questions about the permissibility of germline modifications and human enhancement. Clinical trials in somatic cell therapy have shown 78% efficacy in correcting sickle cell disease mutations, while simultaneously sparking international debate among bioethicists regarding consent and equity. Policymakers across the European Union, United States, and China are now drafting divergent regulatory frameworks to govern gene therapy applications, balancing innovation incentives against safety protocols and equitable access to treatments across socioeconomic populations.</td>
-                <td class="criteria">• Extracts all major disciplinary topics: biotechnology/genetics, ethics, and policy<br>• Identifies specific subtopics within each domain (e.g., CRISPR technology, germline modification concerns, regulatory frameworks)<br>• Returns results as a JSON array of strings<br>• Separates distinct subject areas without unnecessary duplication</td>
-                <td class="output"><pre>
-[
-    "CRISPR-Cas9 Gene Editing Technology",
-    "Genetic Disorders",
-    "Germline Modifications",
-    "Human Enhancement",
-    "Somatic Cell Therapy",
-    "Sickle Cell Disease",
-    "Clinical Trials",
-    "Bioethics",
-    "Consent",
-    "Equity",
-    "Gene Therapy",
-    "Regulatory Frameworks",
-    "European Union",
-    "United States",
-    "China",
-    "Innovation Incentives",
-    "Safety Protocols",
-    "Equitable Access",
-    "Socioeconomic Populations"
+    "artificial intelligence governance",
+    "epistemological frameworks",
+    "machine learning architectures",
+    "positivist assumptions",
+    "quantifiable metrics",
+    "societal values",
+    "determinism",
+    "human agency",
+    "algorithmic bias",
+    "data provenance",
+    "political economy of computational infrastructure",
+    "regulatory approaches",
+    "innovation",
+    "public interest",
+    "market mechanisms"
 ]
 </pre></td>
                 <td class="score-col"><span class="score score-high">8</span></td>
-                <td class="reasoning">The solution meets all mandatory requirements: it is a valid JSON array of strings containing topics from the passage with no extra commentary. It successfully extracts topics across all three major disciplinary areas (biotechnology, ethics, policy) and identifies meaningful subtopics. The inclusion of geographic entities is a minor weakness since they function as contextual modifiers rather than substantive topics, and some items show minor redundancy. However, these issues are not severe enough to violate mandatory requirements. The solution demonstrates strong comprehension of the passage's content and appropriate topic extraction.</td>
+                <td class="reasoning">The solution fully satisfies all mandatory requirements: it is a valid JSON array of strings containing topics from the article with no extra commentary. It demonstrates strong performance on secondary criteria by capturing both explicit topics (artificial intelligence governance, machine learning architectures, algorithmic bias, data provenance, regulatory approaches) and implicit underlying themes (epistemological frameworks, positivism, determinism, political economy). The extraction identifies theoretical frameworks and debates effectively. However, two minor topics are missing: 'techno-optimism' is explicitly mentioned as a competing epistemological position and represents a key debate framework, and 'critical scholarship' represents an important analytical perspective. These omissions are relatively minor given the comprehensive nature of the extraction, but they represent identifiable gaps in completeness.</td>
             </tr>
         
             <tr>
@@ -205,32 +172,58 @@
                 <td class="criteria">• Extracts core research topics (e.g., neuroplasticity, motor recovery, stroke rehabilitation) rather than listing only methodological techniques (e.g., MCMC, fMRI, ICA)<br>• Output is a valid JSON array of strings<br>• Includes all distinct research topics identifiable in the passage</td>
                 <td class="output"><pre>
 [
-    "Neuroplasticity",
-    "Post-stroke Motor Recovery",
-    "Bayesian Hierarchical Modeling",
-    "Markov Chain Monte Carlo (MCMC) Sampling",
-    "Functional Magnetic Resonance Imaging (fMRI)",
-    "fMRI Data Preprocessing",
-    "FSL Software",
-    "SPM12 Software",
-    "Independent Component Analysis (ICA)",
-    "Dynamic Causal Modeling (DCM)",
-    "Effective Connectivity",
-    "Motor Cortex",
-    "Generalized Linear Mixed-effects Models",
-    "Random Intercepts",
-    "Hamiltonian Monte Carlo Sampling",
-    "Statistical Inference",
-    "Corticospinal Tract Projections",
-    "Cerebellar-cortical Coupling",
-    "Motor Task Execution",
-    "Compensatory Neural Mechanisms",
-    "Ischemic Stroke",
-    "Functional Improvement"
+    "Bayesian hierarchical modeling",
+    "Markov Chain Monte Carlo (MCMC) sampling",
+    "neuroplasticity mechanisms",
+    "post-stroke motor recovery",
+    "functional magnetic resonance imaging (fMRI)",
+    "FSL software",
+    "SPM12 software",
+    "independent component analysis (ICA)",
+    "dynamic causal modeling (DCM)",
+    "effective connectivity",
+    "motor cortex regions",
+    "generalized linear mixed-effects models",
+    "Hamiltonian Monte Carlo sampling",
+    "corticospinal tract projections",
+    "cerebellar-cortical coupling",
+    "motor task execution",
+    "compensatory neural mechanisms",
+    "ischemic stroke",
+    "functional improvement"
 ]
 </pre></td>
                 <td class="score-col"><span class="score score-low">5</span></td>
-                <td class="reasoning">The solution meets all mandatory requirements: it is valid JSON containing only strings with no commentary. However, it significantly violates the secondary criterion that explicitly states to 'extract core research topics rather than listing only methodological techniques.' The solution includes 10+ methodological items (MCMC, ICA, DCM, FSL, SPM12, Hamiltonian Monte Carlo, etc.) when the criteria emphasize prioritizing core topics like neuroplasticity, motor recovery, and stroke rehabilitation. While the solution is comprehensive, it fails to properly weight the distinction between research topics and methods, which is a core evaluation criterion.</td>
+                <td class="reasoning">The solution meets all mandatory requirements: it is a valid JSON array of strings with no extra commentary, and contains topics mentioned in the passage. However, it significantly violates the secondary criteria by heavily weighting methodological techniques. The criteria explicitly state the solution should 'extract core research topics (e.g., neuroplasticity, motor recovery, stroke rehabilitation) rather than listing only methodological techniques (e.g., MCMC, fMRI, ICA).' The solution includes 10+ methodological techniques alongside 9 core research topics, inverting the intended priority. A better solution would have emphasized: neuroplasticity, post-stroke motor recovery, motor cortex reorganization, corticospinal tract function, cerebellar-cortical coupling, compensatory neural mechanisms, and stroke rehabilitation—while minimizing or excluding specific software packages and statistical algorithms.</td>
+            </tr>
+        
+            <tr>
+                <td>Testing with interdisciplinary passage containing mixed topics (biology, ethics, and policy) to verify the prompt can identify and separate distinct subject areas</td>
+                <td class="prompt-inputs"><strong>content:</strong> Recent advances in CRISPR-Cas9 gene editing technology have demonstrated remarkable potential for treating genetic disorders, yet these developments raise profound ethical questions about the permissibility of germline modifications and human enhancement. Clinical trials in somatic cell therapy have shown 78% efficacy in correcting sickle cell disease mutations, while simultaneously sparking international debate among bioethicists regarding consent and equity. Policymakers across the European Union, United States, and China are now drafting divergent regulatory frameworks to govern gene therapy applications, balancing innovation incentives against safety protocols and equitable access to treatments across socioeconomic populations.</td>
+                <td class="criteria">• Extracts all major disciplinary topics: biotechnology/genetics, ethics, and policy<br>• Identifies specific subtopics within each domain (e.g., CRISPR technology, germline modification concerns, regulatory frameworks)<br>• Returns results as a JSON array of strings<br>• Separates distinct subject areas without unnecessary duplication</td>
+                <td class="output"><pre>
+[
+    "CRISPR-Cas9 gene editing",
+    "genetic disorders",
+    "germline modifications",
+    "human enhancement",
+    "somatic cell therapy",
+    "sickle cell disease",
+    "bioethics",
+    "informed consent",
+    "equity in healthcare",
+    "gene therapy",
+    "regulatory frameworks",
+    "European Union policy",
+    "United States policy",
+    "China policy",
+    "innovation incentives",
+    "safety protocols",
+    "socioeconomic access to treatments"
+]
+</pre></td>
+                <td class="score-col"><span class="score score-high">9</span></td>
+                <td class="reasoning">The solution fully satisfies all mandatory requirements: it is a valid JSON array of strings containing topics from the article, with no extraneous commentary, and nothing but the array in the response. It also meets the secondary criteria well by extracting topics across all three major disciplines and identifying specific subtopics within each domain. The main limitation is that a few topics are inferred or paraphrased rather than directly extracted from the text, and some organizational choices (like listing three separate country policies) create minor redundancy. However, these are minor issues that don't undermine the overall quality or usability of the extraction. The solution demonstrates strong understanding of the source material and appropriate topic granularity.</td>
             </tr>
         
             <tr>
@@ -239,25 +232,24 @@
                 <td class="criteria">• Extracts all major topics without over-segmenting related concepts (e.g., 'epigenetic regulation' and 'histone deacetylases' should be appropriately grouped or separated based on semantic distinction)<br>• Captures both primary topics (epigenetics, metabolism, aging) and secondary topics (mitochondrial biogenesis, circadian rhythm, autophagy) without omitting significant concepts<br>• Returns results as a valid JSON array of strings with appropriate topic granularity for a scholarly context</td>
                 <td class="output"><pre>
 [
-    "Epigenetic Regulation",
-    "Metabolic Homeostasis",
-    "Aging Tissues",
-    "Histone Deacetylases",
-    "Mitochondrial Biogenesis",
-    "SIRT1-mediated Pathways",
-    "Circadian Rhythm Disruption",
-    "Age-related Metabolic Syndrome",
-    "Chromatin Remodeling Complexes",
-    "NAD+ Metabolism",
-    "Autophagy Activation",
-    "Therapeutic Interventions",
-    "Energy Production",
-    "Cellular Senescence",
-    "Age-dependent Decline"
+    "epigenetic regulation",
+    "metabolic homeostasis",
+    "aging tissues",
+    "histone deacetylases",
+    "mitochondrial biogenesis",
+    "SIRT1-mediated pathways",
+    "circadian rhythm disruption",
+    "age-related metabolic syndrome",
+    "chromatin remodeling complexes",
+    "NAD+ metabolism",
+    "autophagy activation",
+    "therapeutic interventions",
+    "energy production",
+    "cellular senescence"
 ]
 </pre></td>
                 <td class="score-col"><span class="score score-high">9</span></td>
-                <td class="reasoning">The solution fully satisfies all mandatory requirements: it is a valid JSON array of strings containing topics from the passage with no extraneous commentary. Regarding secondary criteria, the extraction demonstrates strong understanding of semantic distinction—histone deacetylases and epigenetic regulation are appropriately separated as distinct concepts rather than conflated. All major topics are captured (epigenetics, metabolism, aging, mitochondrial biogenesis, circadian rhythm, autophagy, NAD+ metabolism, cellular senescence) and secondary topics are included without significant omissions. The granularity is appropriate for a scholarly article, though some items like 'Therapeutic Interventions' and 'Age-dependent Decline' are somewhat peripheral to the core scientific topics. The extraction is thorough and well-executed with only minor quibbles about topic selection philosophy.</td>
+                <td class="reasoning">The solution fully satisfies all mandatory requirements: it is a valid JSON array of strings containing topics from the passage with no extraneous commentary. Regarding secondary criteria, the extraction demonstrates strong judgment in topic selection and granularity. The solution captures the major themes (epigenetic regulation, metabolic homeostasis, aging) and important secondary concepts (mitochondrial biogenesis, circadian rhythm disruption, autophagy activation, cellular senescence). The semantic distinction between related concepts is generally well-handled—for example, 'epigenetic regulation' and 'histone deacetylases' are appropriately separated as they represent different levels of specificity. The only minor consideration is whether 'SIRT1-mediated pathways' represents a distinct topic or a mechanism, but in scholarly contexts this level of specificity is typically appropriate. The extraction is neither under-segmented nor over-segmented in a problematic way.</td>
             </tr>
         
             </tbody>
