@@ -1,66 +1,72 @@
 [
   {
-    "output": "# One-Day Vegan Meal Plan for Soccer Performance & Recovery\n\n**Athlete Profile:** 180 cm, 75 kg, Vegan Soccer Player\n\n* **Calorie Target:** Approximately 2,800 calories\n* **Macronutrient Breakdown:** Protein (105g), Fat (85g), Carbs (385g)\n\n---\n\n## Meal Plan:\n\n* **Breakfast (7:00 AM):** Oatmeal (80g dry weight) with banana (120g), ground flaxseed (15g), and unsweetened almond milk (240ml). Side of whole grain toast (50g) with almond butter (20g).\n    * Protein: 12g, Fat: 16g, Carbs: 75g\n\n* **Mid-Morning Snack (10:00 AM):** Smoothie bowl with plant-based protein powder (30g), frozen berries (150g), coconut yogurt (150g), and granola (40g).\n    * Protein: 20g, Fat: 8g, Carbs: 55g\n\n* **Lunch (1:00 PM):** Quinoa Buddha bowl (150g cooked quinoa) with roasted chickpeas (120g), sweet potato (150g), mixed greens (100g), avocado (60g), tahini dressing (30g), and pumpkin seeds (20g).\n    * Protein: 18g, Fat: 18g, Carbs: 85g\n\n* **Pre-Training Snack (3:30 PM):** Energy balls made with dates (80g), walnuts (30g), and vegan protein powder (15g). Apple (150g).\n    * Protein: 12g, Fat: 12g, Carbs: 65g\n\n* **Dinner (7:00 PM):** Lentil and vegetable stir-fry with brown lentils (150g cooked), broccoli (150g), bell peppers (100g), carrots (80g), in olive oil (15ml), served with brown rice (120g cooked).\n    * Protein: 28g, Fat: 18g, Carbs: 75g\n\n* **Evening Snack (9:30 PM):** Hemp seed and chia seed pudding made with almond milk (200ml), hemp seeds (20g), chia seeds (15g), and maple syrup (10ml).\n    * Protein: 15g, Fat: 13g, Carbs: 30g\n\n---\n\n**Key Nutritional Benefits:** This plan emphasizes plant-based protein sources (legumes, tofu, nuts, seeds), complex carbohydrates for sustained energy during soccer performance, healthy fats for hormone production and recovery, and adequate micronutrients to support athletic performance and immune function.",
+    "output": "\n[\n    \"Artificial Intelligence Governance\",\n    \"Epistemological Frameworks\",\n    \"Machine Learning Architectures\",\n    \"Techno-optimism\",\n    \"Positivist Assumptions\",\n    \"Quantifiable Metrics\",\n    \"Societal Values\",\n    \"Determinism\",\n    \"Human Agency\",\n    \"Algorithmic Bias\",\n    \"Data Provenance\",\n    \"Political Economy\",\n    \"Computational Infrastructure\",\n    \"Regulatory Approaches\",\n    \"Innovation\",\n    \"Public Interest\",\n    \"Market Mechanisms\"\n]\n",
     "test_case": {
       "prompt_inputs": {
-        "height": "180 cm",
-        "weight": "75 kg",
-        "goal": "Match performance and recovery for soccer",
-        "restrictions": "Vegan diet"
+        "content": "Recent scholarship on artificial intelligence governance reveals tensions between competing epistemological frameworks. While techno-optimists emphasize AI's potential to solve complex optimization problems through machine learning architectures, critical scholars interrogate the underlying positivist assumptions embedded in these systems, questioning whether quantifiable metrics adequately capture societal values. The debate implicitly engages with longstanding philosophical questions about determinism versus human agency, as well as practical concerns regarding algorithmic bias, data provenance, and the political economy of computational infrastructure. These discussions are further complicated by divergent regulatory approaches across jurisdictions, reflecting deeper disagreements about the relationship between innovation, public interest, and market mechanisms."
       },
       "solution_criteria": [
-        "Meal plan is compact and covers one full day with breakfast, lunch, dinner, and snacks",
-        "All meals are vegan-compliant with no animal products",
-        "Includes adequate protein from plant-based sources (legumes, tofu, nuts, seeds) to support athletic recovery",
-        "Provides balanced macronutrients and carbohydrates suitable for soccer performance and endurance"
+        "Extracts explicit topics (e.g., artificial intelligence, machine learning, algorithmic bias, regulation)",
+        "Captures implicit underlying themes (e.g., epistemology, positivism, determinism, political economy)",
+        "Identifies theoretical frameworks and debates referenced in the passage",
+        "Returns results as a valid JSON array of strings"
       ],
-      "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
-      "scenario": "Testing with a sport-specific dietary restriction scenario (vegan soccer player) requiring alternative protein sources and nutritional balance"
-    },
-    "score": 7,
-    "reasoning": "The solution successfully meets all three mandatory requirements with clear presentation of daily calories, macronutrient breakdown, and detailed meals with portions and timing. It comprehensively addresses the secondary criteria by providing vegan-compliant meals with adequate plant-based proteins and balanced macronutrients suitable for soccer performance. However, there is a mathematical inconsistency: the individual meal protein totals sum to approximately 198g, not the stated 105g daily target. This discrepancy suggests either the daily target is understated or the meal calculations are inflated. Despite this error, the actual meal composition appears nutritionally sound for the athlete's needs. The plan is compact, well-organized, and practical."
-  },
-  {
-    "output": "# One-Day Meal Plan for Strength & Muscle Gain\n\nHere is a one-day meal plan for an athlete aiming to maximize strength and muscle gain for a weightlifting competition:\n\n* **Calorie Target:** Approximately 3,200 calories\n* **Macronutrient Breakdown:** Protein (200g), Fat (95g), Carbs (420g)\n\n## Meal Plan:\n\n* **Breakfast (7:00 AM):** Whole wheat pancakes (120g dry weight) with Greek yogurt (200g, plain), blueberries (100g), and honey (20g). Whole milk (240g).\n    * Protein: 35g, Fat: 12g, Carbs: 95g\n\n* **Mid-Morning Snack (10:00 AM):** Banana (150g) with natural peanut butter (35g) and whole wheat toast (40g).\n    * Protein: 12g, Fat: 16g, Carbs: 60g\n\n* **Lunch (1:00 PM):** Lean ground beef (150g, 90% lean) with brown rice (120g cooked), steamed broccoli (200g), and olive oil (10g) for cooking.\n    * Protein: 48g, Fat: 18g, Carbs: 85g\n\n* **Pre-Workout Snack (3:30 PM):** White rice cakes (50g) with almond butter (25g) and a medium apple (180g).\n    * Protein: 8g, Fat: 12g, Carbs: 80g\n\n* **Dinner (7:00 PM):** Grilled chicken breast (180g) with sweet potato (250g baked), mixed green salad (150g) with olive oil vinaigrette (15g), and asparagus (150g steamed).\n    * Protein: 60g, Fat: 20g, Carbs: 85g\n\n* **Evening Snack (9:00 PM):** Cottage cheese (150g, low-fat) with berries (80g) and almonds (20g).\n    * Protein: 28g, Fat: 12g, Carbs: 15g\n\nThis meal plan emphasizes lean proteins, complex carbohydrates, and whole foods to support muscle hypertrophy, recovery, and strength development while avoiding all shellfish.",
-    "test_case": {
-      "prompt_inputs": {
-        "height": "180 cm",
-        "weight": "85 kg",
-        "goal": "Maximize strength and muscle gain for weightlifting competition in 8 weeks",
-        "restrictions": "No shellfish allergy; prefers whole foods over supplements"
-      },
-      "solution_criteria": [
-        "Meal plan is compact and covers exactly one full day",
-        "Includes at least 4 meals with high protein content (minimum 25g protein per meal)",
-        "Contains pre- and post-training meals strategically timed around weightlifting session",
-        "All meals align with strength/power athlete nutritional needs without violating stated restrictions"
-      ],
-      "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
-      "scenario": "Testing with a strength/power athlete (weightlifter) needing high protein content and specific timing around training sessions"
+      "task_description": "\n    Extract topics out of a passage of text from a scholarly article into a JSON array of strings\n    ",
+      "scenario": "Testing with a passage containing implicit and subtle topics (e.g., underlying debates or theoretical frameworks) to assess whether the prompt captures both explicit and inferred subject matter"
     },
     "score": 9,
-    "reasoning": "The solution fully satisfies all three mandatory requirements with clear presentation of daily calories, macronutrient totals, and detailed meals with portions and times. It meets the primary secondary criteria: compact one-day format, 5 of 6 meals with \u226525g protein, strategic meal timing around training, and alignment with strength athlete needs while respecting restrictions. The minor weakness regarding the mid-morning snack's protein content (12g vs. 25g target) is a secondary criterion issue that prevents a perfect score, but does not trigger automatic failure. The solution is well-structured, practical, and directly addresses the task requirements."
+    "reasoning": "The solution fully satisfies all mandatory requirements: it is a valid JSON array of strings containing topics from the article with no extraneous commentary. It meets the secondary criteria by extracting explicit topics (AI governance, machine learning, algorithmic bias, regulation), capturing implicit themes (epistemology, positivism, determinism, political economy), and identifying theoretical frameworks (techno-optimism, positivist assumptions). The extraction is thorough and well-balanced between surface-level and deeper conceptual topics. The minor weaknesses regarding 'Quantifiable Metrics' and slight conceptual overlap do not significantly detract from an otherwise excellent extraction that demonstrates strong comprehension of the passage's content and structure."
   },
   {
-    "output": "# One-Day Marathon Race Day Preparation Meal Plan\n\nHere is a one-day meal plan for an athlete preparing for marathon race day with carbohydrate loading:\n\n* **Calorie Target:** Approximately 3,200 calories\n* **Macronutrient Breakdown:** Protein (110g), Fat (80g), Carbs (520g)\n\n## Meal Plan:\n\n* **Breakfast (7:00 AM):** Oatmeal (100g dry weight) with banana (150g), raisins (40g), and ground flaxseed (15g). Low-fat milk (250ml).\n    * Protein: 15g, Fat: 8g, Carbs: 95g\n\n* **Mid-Morning Snack (10:00 AM):** White bread toast (2 slices, 80g) with jam (30g) and honey (20g). Orange juice (250ml).\n    * Protein: 6g, Fat: 3g, Carbs: 85g\n\n* **Lunch (1:00 PM):** Lentil and vegetable soup (400ml) with chickpeas (150g), carrots (80g), celery (50g), and spinach (50g). Whole wheat pasta (120g cooked). Olive oil (10ml).\n    * Protein: 22g, Fat: 8g, Carbs: 110g\n\n* **Afternoon Snack (3:30 PM):** Rice cakes (50g) with hummus (40g). Banana (130g).\n    * Protein: 8g, Fat: 4g, Carbs: 85g\n\n* **Pre-Dinner Snack (5:30 PM):** Bagel (90g) with peanut butter alternative - sunflower seed butter (30g) and jam (20g).\n    * Protein: 12g, Fat: 12g, Carbs: 95g\n\n* **Dinner (7:00 PM):** Baked sweet potato (250g) with black beans (180g cooked), roasted bell peppers (100g), and vegetable broth-based sauce (30ml). Brown rice (100g cooked). Olive oil (8ml).\n    * Protein: 32g, Fat: 28g, Carbs: 130g\n\n* **Evening Snack (9:00 PM):** Dried mango (50g) and dried apricots (40g) with coconut water (200ml).\n    * Protein: 3g, Fat: 1g, Carbs: 95g\n\n---\n\n**Notes:** This plan emphasizes high carbohydrate intake (approximately 65% of calories) to maximize glycogen stores for marathon endurance. Protein is adequate for muscle recovery, and meals are timed to optimize digestion and energy availability. All foods are vegetarian and nut-free, utilizing legumes, seeds, and whole grains as primary protein sources.",
+    "output": "\n[\n    \"CRISPR-Cas9 Gene Editing Technology\",\n    \"Genetic Disorders\",\n    \"Germline Modifications\",\n    \"Human Enhancement\",\n    \"Somatic Cell Therapy\",\n    \"Sickle Cell Disease\",\n    \"Clinical Trials\",\n    \"Bioethics\",\n    \"Consent\",\n    \"Equity\",\n    \"Gene Therapy\",\n    \"Regulatory Frameworks\",\n    \"European Union\",\n    \"United States\",\n    \"China\",\n    \"Innovation Incentives\",\n    \"Safety Protocols\",\n    \"Equitable Access\",\n    \"Socioeconomic Populations\"\n]\n",
     "test_case": {
       "prompt_inputs": {
-        "height": "180 cm",
-        "weight": "72 kg",
-        "goal": "Marathon race day preparation with carbohydrate loading for endurance performance",
-        "restrictions": "Vegetarian, no nuts"
+        "content": "Recent advances in CRISPR-Cas9 gene editing technology have demonstrated remarkable potential for treating genetic disorders, yet these developments raise profound ethical questions about the permissibility of germline modifications and human enhancement. Clinical trials in somatic cell therapy have shown 78% efficacy in correcting sickle cell disease mutations, while simultaneously sparking international debate among bioethicists regarding consent and equity. Policymakers across the European Union, United States, and China are now drafting divergent regulatory frameworks to govern gene therapy applications, balancing innovation incentives against safety protocols and equitable access to treatments across socioeconomic populations."
       },
       "solution_criteria": [
-        "Meal plan contains 4-5 meals distributed throughout the day",
-        "Total daily caloric intake is appropriate for a 72kg endurance athlete (approximately 3000-3500 calories)",
-        "Carbohydrates comprise 60-65% of total calories to support marathon training/preparation",
-        "All meals comply with vegetarian and nut-free restrictions",
-        "Plan is presented in compact, concise format suitable for quick reference"
+        "Extracts all major disciplinary topics: biotechnology/genetics, ethics, and policy",
+        "Identifies specific subtopics within each domain (e.g., CRISPR technology, germline modification concerns, regulatory frameworks)",
+        "Returns results as a JSON array of strings",
+        "Separates distinct subject areas without unnecessary duplication"
       ],
-      "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
-      "scenario": "Testing with a high-performance endurance athlete (marathon runner) requiring high caloric intake and carbohydrate-loading strategy"
+      "task_description": "\n    Extract topics out of a passage of text from a scholarly article into a JSON array of strings\n    ",
+      "scenario": "Testing with interdisciplinary passage containing mixed topics (biology, ethics, and policy) to verify the prompt can identify and separate distinct subject areas"
     },
-    "score": 7,
-    "reasoning": "The solution successfully meets all three mandatory requirements with precise daily calories, complete macronutrient breakdown, and detailed meal specifications with portions and timing. The carbohydrate percentage (65%) and vegetarian/nut-free compliance are correct. However, the meal structure violates the secondary criterion of 4-5 meals by providing 7 eating occasions. While the content is nutritionally sound, the format is more comprehensive than 'compact and concise' for quick reference. The caloric intake, though within range, is conservative for an endurance athlete."
+    "score": 8,
+    "reasoning": "The solution meets all mandatory requirements: it is a valid JSON array of strings containing topics from the passage with no extra commentary. It successfully extracts topics across all three major disciplinary areas (biotechnology, ethics, policy) and identifies meaningful subtopics. The inclusion of geographic entities is a minor weakness since they function as contextual modifiers rather than substantive topics, and some items show minor redundancy. However, these issues are not severe enough to violate mandatory requirements. The solution demonstrates strong comprehension of the passage's content and appropriate topic extraction."
+  },
+  {
+    "output": "\n[\n    \"Neuroplasticity\",\n    \"Post-stroke Motor Recovery\",\n    \"Bayesian Hierarchical Modeling\",\n    \"Markov Chain Monte Carlo (MCMC) Sampling\",\n    \"Functional Magnetic Resonance Imaging (fMRI)\",\n    \"fMRI Data Preprocessing\",\n    \"FSL Software\",\n    \"SPM12 Software\",\n    \"Independent Component Analysis (ICA)\",\n    \"Dynamic Causal Modeling (DCM)\",\n    \"Effective Connectivity\",\n    \"Motor Cortex\",\n    \"Generalized Linear Mixed-effects Models\",\n    \"Random Intercepts\",\n    \"Hamiltonian Monte Carlo Sampling\",\n    \"Statistical Inference\",\n    \"Corticospinal Tract Projections\",\n    \"Cerebellar-cortical Coupling\",\n    \"Motor Task Execution\",\n    \"Compensatory Neural Mechanisms\",\n    \"Ischemic Stroke\",\n    \"Functional Improvement\"\n]\n",
+    "test_case": {
+      "prompt_inputs": {
+        "content": "We employed a multi-stage computational framework utilizing Bayesian hierarchical modeling with Markov Chain Monte Carlo (MCMC) sampling algorithms to investigate neuroplasticity mechanisms in post-stroke motor recovery. Our methodology integrated functional magnetic resonance imaging (fMRI) data preprocessing via FSL and SPM12 software packages, followed by independent component analysis (ICA) decomposition and dynamic causal modeling (DCM) to quantify effective connectivity between motor cortex regions. Statistical inference was conducted using generalized linear mixed-effects models with random intercepts across 47 subjects, employing Hamiltonian Monte Carlo sampling with 4000 iterations and 1000 burn-in steps. Results revealed significant reorganization of corticospinal tract projections and enhanced cerebellar-cortical coupling during motor task execution, suggesting compensatory neural mechanisms underlying functional improvement after ischemic stroke."
+      },
+      "solution_criteria": [
+        "Extracts core research topics (e.g., neuroplasticity, motor recovery, stroke rehabilitation) rather than listing only methodological techniques (e.g., MCMC, fMRI, ICA)",
+        "Output is a valid JSON array of strings",
+        "Includes all distinct research topics identifiable in the passage"
+      ],
+      "task_description": "\n    Extract topics out of a passage of text from a scholarly article into a JSON array of strings\n    ",
+      "scenario": "Testing with a highly technical passage dominated by jargon and methodology descriptions to ensure the prompt extracts core research topics rather than just method names"
+    },
+    "score": 5,
+    "reasoning": "The solution meets all mandatory requirements: it is valid JSON containing only strings with no commentary. However, it significantly violates the secondary criterion that explicitly states to 'extract core research topics rather than listing only methodological techniques.' The solution includes 10+ methodological items (MCMC, ICA, DCM, FSL, SPM12, Hamiltonian Monte Carlo, etc.) when the criteria emphasize prioritizing core topics like neuroplasticity, motor recovery, and stroke rehabilitation. While the solution is comprehensive, it fails to properly weight the distinction between research topics and methods, which is a core evaluation criterion."
+  },
+  {
+    "output": "\n[\n    \"Epigenetic Regulation\",\n    \"Metabolic Homeostasis\",\n    \"Aging Tissues\",\n    \"Histone Deacetylases\",\n    \"Mitochondrial Biogenesis\",\n    \"SIRT1-mediated Pathways\",\n    \"Circadian Rhythm Disruption\",\n    \"Age-related Metabolic Syndrome\",\n    \"Chromatin Remodeling Complexes\",\n    \"NAD+ Metabolism\",\n    \"Autophagy Activation\",\n    \"Therapeutic Interventions\",\n    \"Energy Production\",\n    \"Cellular Senescence\",\n    \"Age-dependent Decline\"\n]\n",
+    "test_case": {
+      "prompt_inputs": {
+        "content": "This study examines the intersection of epigenetic regulation and metabolic homeostasis in aging tissues, specifically investigating how histone deacetylases modulate mitochondrial biogenesis through SIRT1-mediated pathways while simultaneously influencing circadian rhythm disruption observed in age-related metabolic syndrome. Our findings demonstrate that chromatin remodeling complexes coordinate NAD+ metabolism with autophagy activation, suggesting therapeutic interventions targeting these interconnected mechanisms could ameliorate age-dependent decline in energy production and cellular senescence."
+      },
+      "solution_criteria": [
+        "Extracts all major topics without over-segmenting related concepts (e.g., 'epigenetic regulation' and 'histone deacetylases' should be appropriately grouped or separated based on semantic distinction)",
+        "Captures both primary topics (epigenetics, metabolism, aging) and secondary topics (mitochondrial biogenesis, circadian rhythm, autophagy) without omitting significant concepts",
+        "Returns results as a valid JSON array of strings with appropriate topic granularity for a scholarly context"
+      ],
+      "task_description": "\n    Extract topics out of a passage of text from a scholarly article into a JSON array of strings\n    ",
+      "scenario": "Testing with a brief, dense abstract containing multiple nested concepts to verify the prompt handles space-constrained input and avoids over-segmentation or under-segmentation of topics"
+    },
+    "score": 9,
+    "reasoning": "The solution fully satisfies all mandatory requirements: it is a valid JSON array of strings containing topics from the passage with no extraneous commentary. Regarding secondary criteria, the extraction demonstrates strong understanding of semantic distinction\u2014histone deacetylases and epigenetic regulation are appropriately separated as distinct concepts rather than conflated. All major topics are captured (epigenetics, metabolism, aging, mitochondrial biogenesis, circadian rhythm, autophagy, NAD+ metabolism, cellular senescence) and secondary topics are included without significant omissions. The granularity is appropriate for a scholarly article, though some items like 'Therapeutic Interventions' and 'Age-dependent Decline' are somewhat peripheral to the core scientific topics. The extraction is thorough and well-executed with only minor quibbles about topic selection philosophy."
   }
 ]
